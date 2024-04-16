@@ -1,5 +1,5 @@
 <?php
-define('PATH','http://localhost/');
+define('PATH','/');
 
 define('NAMEDB',"caixatem");
 define('USERDB',"root");

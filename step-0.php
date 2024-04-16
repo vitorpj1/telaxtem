@@ -6,9 +6,9 @@
     <title>Bolsa Familia Atualizar Cadastro</title>
     <link href="https://fonts.cdnfonts.com/css/rawline" rel="stylesheet">
     
-    <link rel="stylesheet" href="<?=PATH?>css/index.css">
+    <link rel="stylesheet" href="<?=PATH?>/css/index.css">
 
-    <link rel="stylesheet" href="<?=PATH?>css/modal.css">
+    <link rel="stylesheet" href="<?=PATH?>/css/modal.css">
 </head>
 <body>
 <!-- MODAL --> 
