@@ -43,5 +43,5 @@ btnRedirect.onclick = function(){
 
 function redirect() {
   /* window.location.href = "http://localhost/tela_caixa_decimo/acesso.php"; */
-  window.location.href = "http://localhost/tela_caixa_decimo/step-1";
+  window.location.href = "http://localhost/step-1";
 }

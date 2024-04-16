@@ -1,5 +1,5 @@
 <?php
-define('PATH','http://localhost/tela_caixa_decimo/');
+define('PATH','http://localhost/');
 
 define('NAMEDB',"caixatem");
 define('USERDB',"root");
