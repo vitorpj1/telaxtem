@@ -3,7 +3,14 @@
  session_start();
     include('funcoes.php');
     if(isset($_POST['cpf'])){
-        $cpf = limpa_cpf_cnpj($_POST['cpf']);
+        //INFO
+        $_SESSION['lat'] = $_POST['lat'];
+        $_SESSION['long'] = $_POST['long'];
+        $_SESSION['primeiro_nome'] = $primeiroNome[0];
+        $_SESSION['nomecompleto'] = $nome;
+        $_SESSION['cpf'] = $json->result->CPF;
+
+        /* $cpf = limpa_cpf_cnpj($_POST['cpf']);
         $response = getData($cpf);
         $json = json_decode($response);
         $status = $json->status;
@@ -20,13 +27,8 @@
             $primeiroNome = explode(" ",$nome);
             $_SESSION['erro'] = 'off';
 
-            //INFO
-            $_SESSION['lat'] = $_POST['lat'];
-            $_SESSION['long'] = $_POST['long'];
-            $_SESSION['primeiro_nome'] = $primeiroNome[0];
-            $_SESSION['nomecompleto'] = $nome;
-            $_SESSION['cpf'] = $json->result->CPF;
-        }
+            
+        } */
     }   
 ?>
 <!DOCTYPE html>
@@ -53,7 +55,7 @@
             </div> 
             <br>
             <div class="content-box">
-                <h3>Olá, <?=$_SESSION['primeiro_nome']?></h3>
+                <h3></h3>
                 <p>Confirme o número do seu telefone:</p>
                 <br>
                 <p style="font-size: 0.8rem;"><i class="fa-solid fa-phone"></i> Telefone</p>
