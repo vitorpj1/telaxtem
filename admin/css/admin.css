@@ -1,0 +1,49 @@
+*{
+    font-family: Inter;
+}
+.cores{
+    /* fundo */
+    color:#212B36;
+    /* roxo */
+    color: #624BFF;
+    /* roxo claro */
+    color: #E0DCFE;
+    /* font clara 1 */
+    color: #d6d6d6;
+    /* font clara 2 */
+    color: #F4F6F8;
+    /* font escura */
+    color: #454F5B;
+    /* font escura para corpo */
+    color:#212B36;
+    /* backgroud corpo */
+    color: #F1F5F9  ;
+    /* backgroud elementos */
+    color: #FFFFFF;
+}
+
+/* BACKGROUND */
+.bg-escuro{    
+    background-color: #212B36; 
+    color: #F4F6F8;
+}
+.bg-escuro{    background-color: #212B36; }
+
+/* TEXT */
+
+
+/* MENU */
+
+.menu{
+    height: 100vh;
+}
+.menu a{
+    text-decoration: none;
+    color: #d6d6d6
+}
+.menu a:hover{
+    color: #F4F6F8;
+}
+.red{
+    color: tomato;
+}

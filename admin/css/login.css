@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+/* color: #02111B; */
+/* color: #3F4045; */
+/* color: #30292F; */
+/* color: #5D737E; */
+/* color: #FCFCFC; */
+
+.main-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #5D737E;
+}
+.box-login{
+    width: 700px;
+    height: 500px;
+    background-color: #FCFCFC;
+}
+.box-login form{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-item{
+    height: 30px;
+    width: 60%;
+    outline: none;
+}
+.btn-submit{
+    border: none;
+    background-color: #5D737E;
+    border-radius: 5px;
+
+    font-size: 1.1rem;
+    color: #FCFCFC;
+}
+.erro-box{
+    background-color: #ff938f;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .box-login{
+        width: 90%;
+        height: 400px;
+    }
+}

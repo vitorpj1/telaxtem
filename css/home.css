@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Rawline', sans-serif;
+    /* color:#0A5F9F; */
+    /* color:#5AC4AA; */
+    /* color:#E99207; */
+    /* color: #34EB71; */
+    /* color: #666666; */
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background: rgb(10,95,159);
+    background: linear-gradient(150deg, rgba(10,95,159,1) 0%, rgba(90,196,170,1) 100%);
+
+}
+.header-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    width: 100%;
+}
+.main-home{
+    display: flex;
+    
+}
+.user{
+    
+    margin: 0px 10px 0px 0px;
+    color: white;
+    font-weight: 500;
+}
+.user i{
+    font-size: 1.7rem;
+    display: inline;
+    color: #0A5F9F;
+}
+.user-icon i{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.user-main{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nome{
+    padding: 0px 10px;
+}
+.saldo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.7rem;
+    color: white;
+}
+.mascara{
+    display: inline-block;
+    /* display: none; */
+    width: 200px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+.pequeno{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.saldo_atual{
+    display: inline-block;
+    display: none;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    color: #666666;
+    padding: 20px;
+}
+.card a{
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+    display: block;
+}
+.card img{
+    padding: 2px 0px;
+}
+.borda{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.azul{
+    color:#0A5F9F ;
+}
+.btn-verde{
+    background-color: #34EB71;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .header-home img{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .user div{
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .card{
+        width: 90%;
+    }
+    .card img{
+        width: 100%;
+    }
+    .saldo{
+        font-size: 1.2rem;
+    }
+    .mascara{
+        width: 150px;
+        height: 25px;
+    }
+    .user i{
+        font-size: 1.2rem;
+    }
+}

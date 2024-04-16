@@ -1,0 +1,79 @@
+.bg-verde{
+    background-color: #00d142;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Rawline', sans-serif;
+}
+header{
+    padding: 10px 0px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bg-blue-700{
+    font-weight: bold;
+    background-color: #1D4ED8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 99px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.section-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section-1 p{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.70rem;
+    font-weight: bold;
+}
+.section-2{
+    padding: 20px 50px;
+}
+
+.section-2 h1{
+    display: inline-block;
+    font-size: 1.75;
+    line-height: 1;
+}
+.section-2 p{
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.bg-senhora img{
+    margin: 20px 0px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1D4ED8;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    gap: 20px;
+}
+.rede-social{
+    display: flex;
+    gap: 40px;
+}
+@media only screen and (max-width: 768px) {
+   .bg-senhora img{
+    height: 250px;
+   }
+   .section-2 h1{
+    padding: 0px;
+    text-align: center;
+   }
+  }
